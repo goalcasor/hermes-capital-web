@@ -1,0 +1,30 @@
+@import '../theme/Default.scss';
+@import '../theme/Utils.scss';
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    background-color: #ffffff5e;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 5px 7px -1px rgb(0 0 0 / 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header_container{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include isMobile{
+        padding: .5rem;
+        width: 100vw;
+    }
+}

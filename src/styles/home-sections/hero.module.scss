@@ -1,0 +1,83 @@
+@import '../theme/Default.scss';
+@import '../theme/Utils.scss';
+
+.hero{
+    height: 100vh;
+    background: url('/images/06.png');
+    background-color: #fff;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+
+    @include isMobile{
+        background-size: 140%;
+        background-position: top;
+        align-items: flex-end;
+    }
+}
+
+
+.title{
+    @extend %title-xxl;
+    color: var(--text-color);
+
+    @include isMobile{
+        font-size: var(--title-size-xl);
+    }
+  }
+  
+  .sub_title{
+    @extend %title-lg;
+    color: var(--text-color);
+
+    @include isMobile{
+        font-size: var(--title-size-sm);
+    }
+  }
+
+
+.hero_container{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include isMobile{
+        padding: .5rem;
+        width: 100vw;
+    }
+}
+
+.hero_text_container{
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: .7rem;
+
+    @include isMobile{
+        flex: 1;
+        backdrop-filter: blur(20px);
+        padding: 2rem 0;
+    }
+}
+
+.hero_buttons_container{
+    display: flex;
+    gap: 2rem;
+
+    @include isMobile{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+
+.hero_{
+    flex: 4;
+
+    @include isMobile{
+        display: none;
+    }
+}
