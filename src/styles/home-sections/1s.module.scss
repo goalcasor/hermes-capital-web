@@ -56,7 +56,7 @@
     align-items: flex-end;
 
     @include isMobile {
-        min-height: 70vh;
+        min-height: 50vh;
         background-size: cover;
     }
 }

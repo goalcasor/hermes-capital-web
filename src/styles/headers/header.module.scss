@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
+    height: 12vh;
     width: 100%;
     background-color: #ffffff5e;
     backdrop-filter: blur(7px);
@@ -15,6 +15,10 @@
     top: 0;
     left: 0;
     z-index: 1000;
+
+    @include isMobile{
+        height: 10vh;
+    }
 }
 
 .header_container{
