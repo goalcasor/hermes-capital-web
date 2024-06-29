@@ -12,7 +12,7 @@ function Hero() {
             <div className={styles.hero_text_container}>
                 <h1 className={styles.title}>HERMES CAPITAL</h1>
                 <h2 className={styles.sub_title}>THE GOOD TRADE</h2>
-                <p className={styles.text}>Somos la firma líder brindado herramientas digitales que ayudan a nuestros clientes y/o estudiantes a gestionar sus portafolios de inversiones.</p>
+                <p className={styles.text}>Somos la firma líder brindado herramientas digitales que ayudan a nuestros clientes a gestionar sus portafolios de inversión.</p>
                 
                 <div className={styles.hero_buttons_container}>
                     <PrimaryButton 

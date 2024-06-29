@@ -3,6 +3,7 @@
 import Image from "next/image";
 import styles from '@/styles/headers/header.module.scss'
 import SecundaryButton from "../buttons/SecundaryButton";
+import TerciaryButton from "../buttons/TerciaryButton";
 import logo from '../../../public/images/logo.png';
 
 const Header = () => {
@@ -24,6 +25,10 @@ const Header = () => {
             > 
               <h4>Acceso</h4> 
             </SecundaryButton>
+{/* 
+            <TerciaryButton />  */}
+
+
           </div>
         </header>
     );

@@ -10,8 +10,8 @@ export default function Home() {
         <Header />
         <Hero />
         <SectionOne />
-  {/*       <SectionTwo />
-        <SectionThree /> */}
+        <SectionTwo />
+       {/* <SectionThree /> */}
     </main>
   );
 }

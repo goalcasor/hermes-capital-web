@@ -5,8 +5,9 @@ import "@/styles/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HERMES CAPITAL",
-  description: "THE GOOD TRADE",
+  title: "Hermes Capital -- The Good Trade",
+  description: "Somos la firma líder brindado herramientas digitales que ayudan a nuestros clientes y/o estudiantes a gestionar sus portafolios de inversiones.",
+  icons : ["/images/logo.png"],
 };
 
 export default function RootLayout({
