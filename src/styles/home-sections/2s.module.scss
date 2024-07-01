@@ -47,7 +47,7 @@
         padding: 1rem;
 
         & h2{
-            font-size: var(--title-size-md);
+            font-size: var(--title-size-sm);
         }
     }
 }
@@ -72,6 +72,10 @@
 
     @include isMobile{
         padding-left: .5rem;
+
+        & h4{
+            font-size: var(--title-size-xsm);
+        }
     }
 
     & li{
