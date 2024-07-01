@@ -71,7 +71,7 @@
     padding-left: 2rem;
 
     @include isMobile{
-        padding-left: .5rem;
+        padding-left: 1rem;
 
         & h4{
             font-size: var(--title-size-xsm);
@@ -80,7 +80,7 @@
 
     & li{
         margin-bottom: 1rem;
-        list-style: none;
+        list-style: square;
     }
 
     & h4{

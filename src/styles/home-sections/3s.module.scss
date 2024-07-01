@@ -38,6 +38,10 @@
         box-shadow:  -5px 5px 10px #bcbcbc,
         5px -5px 10px #ffffff;
         padding: 2rem;
+
+        @include isMobile{
+            padding: 1rem;
+        }
     }
 }
 

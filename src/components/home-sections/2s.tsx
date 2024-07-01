@@ -12,7 +12,7 @@ function SectionTwo() {
                 <div className={styles.list_container}>
                   <ul>
                     <li>
-                        <h4>VARIABLES PREDEFINIDAS</h4>
+                        <h4>VARIABLES PRE-DEFINIDAS</h4>
                         <p>Configura parámetros como lotaje, drawdown máximo, take profit y stop loss por adelantado para simplificar tu trading.</p>
                     </li>
                     <li>
@@ -20,8 +20,8 @@ function SectionTwo() {
                       <p>Recibe señales de trading en tiempo real y ejecuta automáticamente tus operaciones en función de las condiciones del mercado.</p>
                     </li>
                     <li>
-                      <h4>BITÁCORA ELECTRÓNICA POTENCIADA CON INTELIGENCIA ARTIFICIAL </h4>
-                      <p> Registra automáticamente tus operaciones y obtén estadísticas detalladas para mejorar tu rendimiento. </p>
+                      <h4>NOTIFICACIONES EN TIEMPO REAL</h4>
+                      <p> Mantente informado sobre el drawdown diario, drawdown máximo y operaciones abiertas cerca del fin de semana. </p>
                     </li>
                   </ul>
                 </div>
