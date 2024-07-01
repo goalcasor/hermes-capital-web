@@ -7,7 +7,7 @@ export const Cards = [
     },
     {
         id: 2,
-        title: 'BITÁCORA ELECTRÓNICA CON IA',
+        title: 'BITÁCORA ELECTRÓNICA CON INTELIGENCIA ARTIFICIAL',
         description: 'Automatiza el registro de operaciones y proporciona estadísticas y gráficos detallados. Ahorra tiempo y ayuda a identificar patrones y mejorar estrategias.',
         imageUrl: '/images/card_images/04.webp',
     },
@@ -23,7 +23,7 @@ export const Cards = [
 export const CardsItems = [
     {
         id: 1,
-        title: 'MENTOR DE TRADING CON IA',
+        title: 'MENTOR DE TRADING CON INTELIGENCIA ARTIFICIAL',
         description: 'Analiza la operativa del usuario con IA y ofrece consejos personalizados. Evalúa el rendimiento y recomienda mejoras basadas en datos históricos.',
         imageUrl: '/images/card_images/06.webp',
     },

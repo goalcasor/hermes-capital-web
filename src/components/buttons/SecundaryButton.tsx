@@ -1,3 +1,5 @@
+'use client';
+
 import styles from '@/styles/buttons/SecundaryButton.module.scss';
 
 interface SecundaryButtonProps {

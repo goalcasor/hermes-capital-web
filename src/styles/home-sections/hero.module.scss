@@ -27,7 +27,6 @@
         font-size: var(--title-size-xl);
     }
   }
-  
   .sub_title{
     @extend %title-lg;
     color: var(--text-color);
@@ -54,7 +53,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: .7rem;
+    gap: 1.5rem;
 
     @include isMobile{
         flex: 1;

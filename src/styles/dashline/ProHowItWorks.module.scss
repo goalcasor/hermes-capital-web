@@ -1,0 +1,189 @@
+@import "../theme/Utils.scss";
+$color: #122745;
+
+.howItWorks_section{
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 2rem;
+  border: 1px solid rebeccapurple;
+  @include isMobile {
+    padding: 1rem 0;
+  }
+}
+
+.howItWorks {
+  background-color: #f5f5f5;
+  width: 80vw;
+
+  @include isMobile{
+    width: 90vw;
+  }
+
+  &__top_content {
+    height: 20rem;
+    width: 100%;
+    display: grid;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    @include isSmallerRange {
+      height: fit-content;
+      margin: 2rem 0;
+      display: block;
+    }
+
+    @include isMobile {
+      height: fit-content;
+      margin: 4rem 0;
+    }
+  }
+
+  &__content {
+    @extend .howItWorks__top_content;
+    color: black;
+    font-weight: 400;
+    height: fit-content;
+    margin-bottom: 4rem;
+  }
+
+  &__sLine {
+    height: 10rem;
+
+    @include isSmallerRange {
+      display: none;
+    }
+  }
+
+  &__vertical_line{
+     display: none; 
+    
+    @include isSmallerRange {
+      display: block;
+      height: 10rem;
+    }
+  }
+
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: black;
+
+    @include isMobile{
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+
+  &__point_content_left {
+    position: relative;
+    padding-left: 3rem;
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    @include isMobile {
+      padding-left: 1.5rem;
+    }
+  }
+
+  &__number {
+    font-size: 13rem;
+    position: absolute;
+    left: -1rem;
+    bottom: -4rem;
+    font-weight: 900;
+    z-index: 0;
+    color: #7e7e7e;
+
+    &_one {
+      @extend .howItWorks__number;
+      left: -2rem;
+    }
+
+    @include isSmallerRange {
+      font-size: 10rem;
+      top: 1rem;
+      bottom: -3rem;
+      left: -1.5rem;
+    }
+  }
+
+  &__content_wrapper {
+    z-index: 1;
+    backdrop-filter: blur(8px);
+    background-color: #00000021;
+    padding: 1rem;
+    border-radius: 0.2rem;
+  }
+
+  &__point_title {
+    margin: 1rem 0;
+    color: black;
+    font-size: 1rem;
+    font-weight: 900;
+    @include isSmallerRange{
+      font-size: 1.2rem;
+    }
+
+  }
+
+  &__dashed_content {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    grid-column: 3/5;
+
+    @include isSmallerRange {
+      display: none;
+    }
+  }
+
+  &__top_dashed_content {
+    @extend .howItWorks__dashed_content;
+    grid-column: 3/4;
+  }
+
+  &__dashed_line_wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__point_content_right {
+    position: relative;
+    padding-left: 3.5rem;
+    grid-column: 4/6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    @include isMobile {
+      padding-left: 1.5rem;
+    }
+  }
+
+  &__dashed_content_right {
+    padding: 2rem 3rem 0 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    grid-column: 2/4;
+
+    @include isSmallerRange {
+      display: none;
+    }
+  }
+}
