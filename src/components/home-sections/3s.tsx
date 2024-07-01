@@ -14,6 +14,7 @@ function SectionThree() {
               <div>
                 <div className={styles.section_three_text}>
                   <h2>POTENCIA TU OPERATIVA CON INTELIGENCIA ARTIFICIAL</h2>
+                  <br />
                   <p>Conoce las soluciones que te permitirán automatizar tus procesos y mejorar la toma de decisiones.</p>
                 </div>
                 <div className={styles.points_container}>
@@ -42,7 +43,13 @@ function SectionThree() {
               </div>
             </div>
             <div className={styles.section_three_content}>
-              <div></div>
+              <div>
+                  <h3>TODO EL POTENCIAL DE INTELIGENCIA ARTIFICIAL EN TUS MANOS</h3>
+                  <br />
+                  <p>
+                  Aprovecha todo el potencial de la inteligencia artificial para optimizar tus operaciones y mejorar tu rendimiento en el mercado.
+                  </p>
+              </div>
               <div className={styles.section_three_cta}>
                   <h3>SOLUCIONES AVANZADAS PARA EL TRADING ACTUAL</h3>
                   <p>

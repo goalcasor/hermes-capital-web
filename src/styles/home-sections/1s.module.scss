@@ -35,12 +35,6 @@
     }
 }
 
-.grid_container_up{
-
-}
-
-
-
 .item{
     flex: 1;
     height: 50vh;
@@ -56,8 +50,8 @@
     align-items: flex-end;
 
     @include isMobile {
-        min-height: 50vh;
         background-size: cover;
+        height: fit-content;
     }
 
     
