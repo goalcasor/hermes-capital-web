@@ -35,6 +35,16 @@
     }
 }
 
+.section_one_title{
+    text-align: left;
+
+    @include isMobile {
+        & h2{
+            font-size: var(--title-size-sm);
+        }
+    }
+}
+
 .item{
     flex: 1;
     height: 50vh;
@@ -71,8 +81,10 @@
     height: 55%;
     transition: all 0.3s ease;
     & h3{
-        font-size: var(--title-size-sm);
+        font-size: var(--title-size-xsm);
+        font-weight: bolder;
         text-align: left;
         width: 100%;
+
     }
 }

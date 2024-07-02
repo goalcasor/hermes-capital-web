@@ -16,14 +16,10 @@
     display: flex;
     width: 80vw;
     gap: 1.5rem;
-    min-height: 120vh;
     @include isMobile {
         width: 97vw;
-        min-height: 100vh;
         flex-direction: column;
-        min-height: 100vh;
         flex-wrap: wrap-reverse;
-
         & h2, h3{
             font-size: var(--title-size-sm);
         }
@@ -69,6 +65,7 @@
 
         @include isMobile{
             background-position: bottom;
+            min-height: 50vh;
         }
     }
   

@@ -5,6 +5,9 @@ function SectionOne() {
   return (
     <div  className={styles.section_one}>
         <div className={styles.grid_container}>
+            <div className={styles.section_one_title}>
+                <h2>OPTIMIZA TU OPERATIVA CON HERRAMIENTAS INTELIGENTES</h2>
+            </div>
             <div className={styles.grid_container_up}>
 
                 {Cards.map((card) => {
@@ -24,7 +27,7 @@ function SectionOne() {
              
             </div>
             <div className={styles.grid_container_down}>
-            {CardsItems.map((card) => {
+                {CardsItems.map((card) => {
                     return (
                         <div 
                             key={card.id} 
