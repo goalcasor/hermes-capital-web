@@ -60,6 +60,7 @@
     align-items: flex-end;
 
     @include isMobile {
+        background-position-x: left;
         background-size: cover;
         height: fit-content;
     }
