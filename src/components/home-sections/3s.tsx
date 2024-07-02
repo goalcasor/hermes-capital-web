@@ -56,7 +56,7 @@ function SectionThree() {
                   Explora y descubre cómo la inteligencia artificial y el aprendizaje automático pueden ser herramientas clave para optimizar tus estrategias de trading. Aprende a utilizar estas tecnologías avanzadas para analizar grandes volúmenes de datos, identificar patrones de mercado en tiempo real y mejorar significativamente tus resultados en el trading.
                   </p>
                   <SecundaryButton
-                    bgwhite
+                 /*    bgwhite */
                     onClick={() => console.log('SOLICITA UNA DEMO')}
                   >
                     <h3>SOLICITA UNA DEMO</h3>

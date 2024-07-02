@@ -24,7 +24,12 @@ function SectionFour() {
                 <MultiCurrencyIcon />
               </div>
             </div>
-            <div></div>
+            <div className={styles.logo_text_container}>
+              <div className={styles.logo_text}>
+                <h1 className={styles.title}>HERMES CAPITAL</h1>
+                <h2 className={styles.sub_title}>THE GOOD TRADE</h2>
+              </div>
+            </div>
           </div>
           <div className={`${styles.section_four_content} ${styles.section_four_content_down}`}>
             <div>
