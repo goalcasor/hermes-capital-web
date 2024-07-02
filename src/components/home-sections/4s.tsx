@@ -32,7 +32,7 @@ function SectionFour() {
               <p>
                 Descubre cómo Hermes Challenge puede ayudarte a mejorar tus habilidades de trading y a alcanzar tus objetivos financieros.
               </p>
-              <div>
+              <div className={styles.button_container}>
                 <SecundaryButton 
                   onClick={() => console.log('Descubre más')}
                 >
@@ -42,15 +42,15 @@ function SectionFour() {
             </div>
             <div className={styles.section_four_content_down_right_card}>
               <div>
-                <h3>Previo a la Compra</h3>
+                <h3>PREVIO A LA COMPRA</h3>
                 <p>Antes de invertir, es esencial realizar simulaciones para evaluar estrategias de mercado y asegurar la seguridad de tu cuenta contra fraudes. Esta fase preparatoria es clave para un inicio sólido en el trading.</p>
               </div>
               <div>
-                <h3>Aprobar Challenge</h3>
+                <h3>APROBAR CHALLENGE</h3>
                 <p>En esta etapa, los traders enfrentan desafíos que prueban su capacidad para generar ganancias consistentes. Es crucial seguir las señales de expertos, colaborar con otros traders y gestionar el riesgo adecuadamente para superar esta fase.</p>
               </div>
               <div>
-                <h3>Cuenta Fondeada</h3>
+                <h3>CUENTA FONTEADA</h3>
                 <p>Con la cuenta ya fondeada, el enfoque se centra en ejecutar un plan de trading bien estructurado, llevar un registro detallado de operaciones y, idealmente, recibir orientación de un mentor para optimizar las estrategias y asegurar el éxito a largo plazo.</p>
               </div>
             </div>

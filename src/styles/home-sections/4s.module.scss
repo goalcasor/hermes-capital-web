@@ -77,6 +77,10 @@
         display: flex;
         flex-direction: column; 
         justify-content: space-between;
+
+        @include isMobile {
+            flex: 1;
+        }
     }
     > :nth-child(2) {
       flex: 4;
@@ -85,6 +89,10 @@
       background-size: cover;
       background-repeat: no-repeat;   
       background-position: center;
+
+        @include isMobile {
+            flex: 1;
+        }
     }
 
     .icons_container{
@@ -102,7 +110,7 @@
     display: flex;
     gap: 1.5rem;
     position: relative;
-
+  
 
     @include isMobile {
         flex-direction: column;
@@ -115,10 +123,27 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between; 
+        @include isMobile {
+            flex: 3;
+            order: 2;
+            & button{
+                width: 100%;
+            }
+        }
     }
     > :nth-child(2) {
         flex: 8;
         height: 100%;
+        @include isMobile {
+            flex: 9;
+            order: 1;
+
+           
+        }
+    }
+
+    .button_container{
+        width: 100%;
     }
 }
 
