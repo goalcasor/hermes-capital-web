@@ -43,15 +43,15 @@ function SectionFour() {
             <div className={styles.section_four_content_down_right_card}>
               <div>
                 <h3>Previo a la Compra</h3>
-                <p>Antes de realizar cualquier inversión, es crucial llevar a cabo una simulación de pruebas para evaluar diferentes estrategias de mercado sin riesgo. Además, la protección de la cuenta es fundamental para asegurar que tus activos estén seguros contra accesos no autorizados o fraudes.</p>
+                <p>Antes de invertir, es esencial realizar simulaciones para evaluar estrategias de mercado y asegurar la seguridad de tu cuenta contra fraudes. Esta fase preparatoria es clave para un inicio sólido en el trading.</p>
               </div>
               <div>
                 <h3>Aprobar Challenge</h3>
-                <p>Para avanzar, los traders deben superar ciertos desafíos que demuestran su habilidad para generar ganancias de manera consistente. Esto incluye seguir señales de traders experimentados, participar en trading colaborativo para aprender de otros, y mantener un control estricto del DrawDown (DD) para gestionar las pérdidas.</p>
+                <p>En esta etapa, los traders enfrentan desafíos que prueban su capacidad para generar ganancias consistentes. Es crucial seguir las señales de expertos, colaborar con otros traders y gestionar el riesgo adecuadamente para superar esta fase.</p>
               </div>
               <div>
                 <h3>Cuenta Fondeada</h3>
-                <p>Una vez que la cuenta está fondeada, es esencial desarrollar un plan de trading sólido, mantener una bitácora de todas las operaciones para analizar el desempeño y, si es posible, trabajar con un mentor de trading que pueda guiar y mejorar las estrategias de inversión.</p>
+                <p>Con la cuenta ya fondeada, el enfoque se centra en ejecutar un plan de trading bien estructurado, llevar un registro detallado de operaciones y, idealmente, recibir orientación de un mentor para optimizar las estrategias y asegurar el éxito a largo plazo.</p>
               </div>
             </div>
           </div>
