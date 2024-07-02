@@ -196,12 +196,17 @@
     & h1{
         font-size: var(--title-size);
         color:  #fff;
+        @include isMobile {
+            font-size: var(--title-size-md);
+        }
     }
 
     & h2{
         font-size: var(--title-size-md);
         color:  #fff;
-
+        @include isMobile {
+            font-size: var(--title-size-sm);
+        }
     }
 }
 
