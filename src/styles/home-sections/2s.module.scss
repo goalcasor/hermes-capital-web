@@ -79,10 +79,16 @@
 
     & li{
         margin-bottom: 1rem;
-        list-style: square;
-    }
+        list-style: none;
 
-    & h4{
-        margin-bottom: .5rem;
+        & .li_title{
+            display: flex;
+            align-items: self-start;
+            justify-content: flex-start;
+            gap: .5rem;
+            height: fit-content;
+            margin-bottom: .5rem;
+            line-height: 24px;
+        }
     }
 }
